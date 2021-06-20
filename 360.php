@@ -1,4 +1,13 @@
-<?php require_once"dbconfig.php";?>
+<?php require_once"dbconfig.php";
+if(isset($_SESSION['login']))
+{
+	
+}
+else
+{
+	header("location:login.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>

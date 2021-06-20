@@ -1,5 +1,13 @@
-
-<?php require_once"dbconfig.php";?>
+<?php require_once"dbconfig.php";
+if(isset($_SESSION['login']))
+{
+	
+}
+else
+{
+	header("location:login.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +27,8 @@
       <a><h1>360 Degrees Image Viewer</h1></a>
       </li>
       </ul>
+
+      
   </nav>
 <div class="container-fluid">   <div class="row">
 <?php
@@ -75,7 +85,12 @@
 		
 		?>
 </table>
-</div></div><br><br><br><br>
+</div>
+</div>
+<center>
+<li><a href="logout.php">Logout</a></li>
+</center>
+<br><br><br><br>
 <!-- Footer -->
 <footer class="page-footer font-small blue">
 

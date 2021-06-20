@@ -14,13 +14,18 @@ Front end: HTML, CSS, JavaScript
 
 
 File Structure
-\-- 360-Degrees-Image-Viewer
-    \--Database
-      |--image.sql
-    |-- 360.php
-    |-- dbconfig.php
-    |-- delete.php
-    |-- index.php
+├── 360.php
+├── Database
+│   └── image.sql
+├── README.md
+├── dbconfig.php
+├── delete.php
+├── images
+│   ├── 1.jpg
+│   └── img360.jpg
+└── index.php
+
+2 directories, 8 files
 
 
 #Each file/folder will contain the following:
