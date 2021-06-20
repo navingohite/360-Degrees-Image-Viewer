@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 08, 2021 at 05:18 AM
+-- Generation Time: Jun 20, 2021 at 06:15 AM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -42,6 +42,27 @@ INSERT INTO `img` (`id`, `image_name`, `short_descirption`) VALUES
 (8, 'img360.jpg', ''),
 (9, '1.jpg', '');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `register`
+--
+
+CREATE TABLE `register` (
+  `id` int(11) NOT NULL,
+  `name` varchar(30) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `mobile` int(14) NOT NULL,
+  `password` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `register`
+--
+
+INSERT INTO `register` (`id`, `name`, `email`, `mobile`, `password`) VALUES
+(1, 'navin', 'navin@gmail.com', 2147483647, '111111');
+
 --
 -- Indexes for dumped tables
 --
@@ -53,6 +74,12 @@ ALTER TABLE `img`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `register`
+--
+ALTER TABLE `register`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -61,6 +88,12 @@ ALTER TABLE `img`
 --
 ALTER TABLE `img`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `register`
+--
+ALTER TABLE `register`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
