@@ -52,7 +52,7 @@ else
 	   <div class="col-lg-6">
 	   <div class="form-group"> Select image to upload:
     <input type="file" class="form-control" name="fileToUpload" id="fileToUpload"></div>
-    <input type="submit" class="btn btn-info" value="Upload Image" name="submit"></div>
+    <input type="submit" class="btn btn-sm btn-info" value="Upload Image" name="submit"></div>
    </form> </div>
     <br><br><br>
 
@@ -74,8 +74,8 @@ else
     <tr>
       <td><?=$image_name?></td>
       <td><?=$short_descirption?></td>
-      <td><a href="360.php?id=<?=$id?>"><button class="btn btn-success">View</button></a></td>
-      <td><a href="delete.php?id=<?=$id?>"><button class="btn btn-danger">Delete</button></a></td>
+      <td><a href="360.php?id=<?=$id?>"><button class="btn btn-sm btn-success">View</button></a></td>
+      <td><a href="delete.php?id=<?=$id?>"><button class="btn btn-sm btn-danger">Delete</button></a></td>
       
     </tr>
   
