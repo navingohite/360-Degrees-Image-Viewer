@@ -81,7 +81,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="#"> 360 Degrees Image Viewer</a>
+    <a href="https://github.com/navingohite/360-Degrees-Image-Viewer"> 360 Degrees Image Viewer | by Navin Gohite</a>
   </div>
   <!-- Copyright -->
 
