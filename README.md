@@ -58,5 +58,5 @@ This will create the images table with the following columns:
  short_description — The description of the image..
 
 
- # 360-Degrees-Image-Viewer
+ # 360-Degrees-Image-Viewer.
 
